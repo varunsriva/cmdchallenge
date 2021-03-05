@@ -25,8 +25,13 @@ O5: 199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.
 
 Q6: Create an empty file named take-the-command-challenge in the current working directory.
 A6: touch take-the-command-challenge
-O6: 
 
 Q7: Create a directory named tmp/files in the current working directory
-A7: mkdir tmp && cd tmp && mkdir files
-O7: 
+A7: mkdir tmp && cd tmp && mkdir files 
+
+Q8: Copy the file named take-the-command-challenge to the directory tmp/files
+A8: cp take-the-command-challenge tmp/files 
+
+Q9: Move the file named take-the-command-challenge to the directory tmp/files
+A9: mv take-the-command-challenge tmp/files
+
